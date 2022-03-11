@@ -8,9 +8,9 @@ courses:
 
 social:
 - {icon: 'github', link: 'https://github.com/harry-rendell'}
+- {icon: 'linkedin', link: 'https://linkedin.com/in/harry-rendell/'}
 #- {icon: 'twitter', link: 'https://twitter.com/paululele'}
 #- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-#- {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
 - {name: 'Harry Rendell', title: 'PhD Student', department: 'Physics & Astronomy', institution: 'University of Edinburgh', institution_address: 'Blackford Hill, Edinburgh, EH9 1EU', phone: '07530 745 728', email: 'hrb@roe.ac.uk', office: 'Higgs Centre'}#, image: 'assets/img/contact.jpg'}
