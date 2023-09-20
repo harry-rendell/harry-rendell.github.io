@@ -1,14 +1,18 @@
+:root
+{
+ --main_body: #D6D6D6
+}
 body{
-  background:#333333 url(images/background.gif);
+  background:#333333 url(../res/heic0611b.jpg);
   margin:0px;
   font: 400 14px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
-  color:#6a6969;
+  color:var(--main_body);
 }
-h1{font: 400 44px/60px 'Bree Serif', Georgia, serif; color:#6a6969;}
-h2{font: 400 20px/22px 'Bree Serif', Georgia, serif; color:#6a6969;}
-h3{font: 400 16px/16px 'Bree Serif', Georgia, serif; color:#6a6969;}
+h1{font: 400 44px/60px 'Bree Serif', Georgia, serif; color:var(--main_body);}
+h2{font: 400 20px/22px 'Bree Serif', Georgia, serif; color:var(--main_body);}
+h3{font: 400 16px/16px 'Bree Serif', Georgia, serif; color:var(--main_body);}
 ul{margin:0px; padding:0px;}
-a {text-decoration:underline; color:#6a6969;}
+a {text-decoration:underline; color:var(--main_body);}
 a:hover {color:#979797;}
 a img{border:0px;}
 
@@ -47,7 +51,7 @@ a img{border:0px;}
 }
 
 
-#header a {text-decoration:none; color:#6a6969;}
+#header a {text-decoration:none; color:var(--main_body);}
 
 /****************************************************/
 /* ABOUT SECTION */
@@ -279,3 +283,11 @@ a img{border:0px;}
 }
 .top-divider{margin-bottom:40px;}
 .bottom-divider{margin-top:40px;}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
